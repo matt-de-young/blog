@@ -1,0 +1,16 @@
+@import './callouts.css';
+
+@tailwind base;
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold; /* This sets font-weight to 700 */
+  }
+
+  p {
+    @apply mb-4;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
