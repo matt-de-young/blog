@@ -1,5 +1,6 @@
 import Container from "@/app/_components/container";
 import { SOURCE_CODE_LINK } from "@/lib/constants";
+import { Link } from "./link";
 
 export function Footer() {
   return (
@@ -7,12 +8,12 @@ export function Footer() {
       <Container>
         <div className="py-8 flex flex-col md:flex-row items-center">
           <div className="flex flex-col md:flex-row justify-center items-center md:items-start">
-            <a
+            <Link
               href={SOURCE_CODE_LINK}
-              className="font-bold hover:underline"
+              className="font-bold"
             >
               View on GitHub
-            </a>
+            </Link>
           </div>
         </div>
       </Container>

@@ -1,6 +1,6 @@
-import Link from "next/link";
 import CoverImage from "./cover-image";
 import DateFormatter from "./date-formatter";
+import { Link } from "./link";
 
 type Props = {
   title: string;
@@ -25,7 +25,7 @@ export function PostPreview({
         </div>
       )}
       <h3 className="text-3xl mb-3 leading-snug">
-        <Link href={`/posts/${slug}`} className="hover:underline">
+        <Link href={`/posts/${slug}`}>
           {title}
         </Link>
       </h3>

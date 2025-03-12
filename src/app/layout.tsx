@@ -60,7 +60,7 @@ export default function RootLayout({
         <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       </head>
       <body
-        className={cn(roboto.className, "dark:bg-zinc-800 dark:text-zinc-100")}
+        className={cn(roboto.className, "dark:bg-zinc-900 dark:text-zinc-100")}
       >
         <ThemeSwitcher />
         <div className="min-h-screen">{children}</div>
