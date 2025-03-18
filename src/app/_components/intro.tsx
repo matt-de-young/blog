@@ -5,7 +5,7 @@ export function Intro() {
   return (
     <>
       <section className="mt-8 lg:mb-16 xl:mb-12 pb-8 border-b">
-        <h1 className="text-5xl md:text-7xl font-bold tracking-tighter leading-tight mb-4">
+        <h1 className="text-5xl md:text-7xl font-bold tracking-tighter leading-tight mb-2">
           {BLOG_TITLE}
         </h1>
         <h4 className="md:text-lg">

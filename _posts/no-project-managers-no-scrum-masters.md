@@ -1,27 +1,13 @@
 ---
 title: "No Project Managers, No Scrum Masters"
 excerpt: "Scrum discourages ownership & encourages mediocrity. A better process is possible."
-date: "2025-03-04T12:54:07.322Z"
+date: "2025-03-12T12:54:07.322Z"
 draft: true
 ---
 
 This post describes an agile alternative to scrum that I have had a lot of success with. This was framework developed collaboratively with a group of 9 people developing products including PCBs, firmware, SaaS platforms, Mobile Apps, & infrastructure as code at ivy GmbH. It's not that scrum doesn't work, but I don't think it allows software development teams to do their best work & for high performing teams a better way is possible. Even when scrum is working at its best it involves a lot of overhead & coordination, at its worst it completely separates people making decisions from the consequences of those decisions. The purest form of the method proposed here is to just get a bunch of smart people together & unleash them on a problem with all the context that they need. If your team has already reached that level of enlightenment there is no need to mess around with this method. But this method attempts to work as a recipe to make the magic repeatable.
 
-I want to note here at the top that this is a radical strategy & a departure from the seemingly industry standard practice of having a product manager decide what to do & then hand it off for developers do it. This framework revolves around getting information & context to as many relevant people as possible, trusting that it can only improve solutions & decision making. I would have called this method the anarcho-syndicalist method if I didn't think it would make me effectively unemployable by anyone with a business degree. At ivy we still had product managers but they are completely a part of the team the same way designers or QA testers are in some teams.
-
-## Why
-
-The wide range of talents & experience at ivy allowed for truly innovative solutions, but also presents a problem in that not every team member is interchangeable. In the end I think that is true of every team, but maybe not as pronounced as in this one. Because of the extreme vertical integration, we also had the unique problem of having almost as many products as we had people, which rules out the product based teams approach commonly seen in bigger organizations & why I think this framework is better suited to small, efficient teams with ambitious goals. After adopting this method, we delivered 90% of our projects at or before the target date & most unfinished projects were canceled after only a week or two.
-
-At ivy we were consistently struggling to organize our work into manageable, predictable chunks while still maintaining a consistent direction over the long run. Being a small startup, and it being 2023, waterfall was naturally out. In the beginning we started with scrum, which I still recommend for new & especially inexperienced teams as it is familiar & promises a minimum amount of progress towards goals at a predictable cadence. But the problems, at lest in environments like ours, became very clear very quickly.
-
-When priorities & strategy can change from sprint to sprint, it is hard to actually finish anything, there is no follow through on any new features released. There is also an enormous overhead involved in making sure issues are ready to be put into a cycle, especially if your team has more ideas than time. It is common in startups for priorities to quickly; meaning the chances of any written issue ever being scheduled in a sprint are around 50%.
-
-Context switching can really inhibit a developers productivity & should be avoided as much as possible. Another way to think of the method described below is an evolution on the idea of sprint goals which tries to keep issues in a sprint cohesive; but it is all to common for a team to pick a grab bag of issues & then try to work backwards into a sprint goal. This method ensures that it happens the other way around.
-
-It is an age old problem that one cannot separate the solution from the implementation; writing a solution in an issue must also define the implementation or else it's not a complete solution. Plus, the act of writing the issue to a standard that anyone else can pick it up brings the author an appreciable amount of the way towards actually solving the problem itself; only for that context to be lost when another person picks up the issue or a month passes before it is picked up. This is a general problem in many teams that is worth following up on in a later post as it informs some of our other unorthodox approaches to organizing work.
-
-The last problem scrum teams face is finding out which issues would be more impactful together than alone & so should either all be accepted or none should. That's where the first process change came in, projects.
+I want to note here at the top that this is a radical strategy & a departure from the seemingly industry standard practice of having a product manager decide what to do & then hand it off for developers do it. This framework revolves around getting information & context to as many relevant people as possible, trusting that it can only improve solutions & decision making. I would have called this method the anarcho-syndicalist method if I didn't think it would make me effectively unemployable by anyone with a business degree. At ivy we still had product managers but they are completely a part of the team the same way designers or QA testers are in some teams. If you want to ready the context of how we came to this way of working first, skip down to the "Why" section towards the end.
 
 ## Projects
 
@@ -82,6 +68,20 @@ There are basically no rules for how to run projects, but these guidelines have 
 > [!question] What happens if something really urgent comes up while an unrelated project is ongoing?
 > This is what the support person is for; hopefully nothing that large & urgent should come out of no where. It's important to let a project finish as it as part of the trust agreement been the project team & the greater business.
 
+## Why
+
+The wide range of talents & experience at ivy allowed for truly innovative solutions, but also presents a problem in that not every team member is interchangeable. In the end I think that is true of every team, but maybe not as pronounced as in this one. Because of the extreme vertical integration, we also had the unique problem of having almost as many products as we had people, which rules out the product based teams approach commonly seen in bigger organizations & why I think this framework is better suited to small, efficient teams with ambitious goals. After adopting this method, we delivered 90% of our projects at or before the target date & most unfinished projects were canceled after only a week or two.
+
+At ivy we were consistently struggling to organize our work into manageable, predictable chunks while still maintaining a consistent direction over the long run. Being a small startup, and it being 2023, waterfall was naturally out. In the beginning we started with scrum, which I still recommend for new & especially inexperienced teams as it is familiar & promises a minimum amount of progress towards goals at a predictable cadence. But the problems, at least in environments like ours, became very clear very quickly.
+
+When priorities & strategy can change from sprint to sprint, it is hard to actually finish anything, there is no follow through on any new features released. There is also an enormous overhead involved in making sure issues are ready to be put into a cycle, especially if your team has more ideas than time. It is common in startups for priorities to quickly; meaning the chances of any written issue ever being scheduled in a sprint are around 50%.
+
+Context switching can really inhibit a developers productivity & should be avoided as much as possible. Another way to think of the method described below is an evolution on the idea of sprint goals which tries to keep issues in a sprint cohesive; but it is all to common for a team to pick a grab bag of issues & then try to work backwards into a sprint goal. This method ensures that it happens the other way around.
+
+It is an age old problem that one cannot separate the solution from the implementation; writing a solution in an issue must also define the implementation or else it's not a complete solution. Plus, the act of writing the issue to a standard that anyone else can pick it up brings the author an appreciable amount of the way towards actually solving the problem itself; only for that context to be lost when another person picks up the issue or a month passes before it is picked up. This is a general problem in many teams that is worth following up on in a later post as it informs some of our other unorthodox approaches to organizing work.
+
+The last problem scrum teams face is finding out which issues would be more impactful together than alone & so should either all be accepted or none should. That's where the first process change came in, projects.
+
 ## Future
 
-This is likely not the final form that this method will take & the team at ivy will continue to iterate on the idea. But as far as I can tell we have come up with a novel way to organize our work that allows the flexibility for teams to do their best work while providing a framework that allows for measuring success & providing predictable dates. I hope some other teams try this out; if you do, please get in toch & me know how it goes.
+This is likely not the final form that this method will take & the team at ivy will continue to iterate on the idea. But as far as I can tell we have come up with a novel way to organize our work that allows the flexibility for teams to do their best work while providing a framework that allows for measuring success & providing predictable dates. I hope some other teams try this out; if you do, please get in touch & me know how it goes.
