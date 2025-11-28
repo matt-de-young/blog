@@ -1,9 +1,17 @@
-# Blog
+# Fresh project
 
-A statically generated blog example using Next.js, Markdown, & deployed to Vercel
+Your new Fresh project is ready to go. You can follow the Fresh "Getting
+Started" guide here: https://fresh.deno.dev/docs/getting-started
 
-## Writing
+### Usage
 
-The blog posts are stored in `/_posts` as Markdown files with front matter support. Adding a new Markdown file in there will create a new blog post.
+Make sure to install Deno:
+https://docs.deno.com/runtime/getting_started/installation
 
-To create the blog posts we use [`remark`](https://github.com/remarkjs/remark) and [`remark-html`](https://github.com/remarkjs/remark-html) to convert the Markdown files into an HTML string, and then send it down as a prop to the page. The metadata of every post is handled by [`gray-matter`](https://github.com/jonschlinkert/gray-matter) and also sent in props to the page.
+Then start the project in development mode:
+
+```
+deno task dev
+```
+
+This will watch the project directory and restart as necessary.
