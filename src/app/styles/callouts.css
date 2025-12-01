@@ -1,8 +1,6 @@
-@tailwind components;
-
 @layer components {
   .callout {
-    @apply my-6 p-5 rounded-lg bg-zinc-200 dark:bg-zinc-900 border border-gray-200 bg-opacity-10 shadow-sm;
+    @apply my-6 p-5 rounded-lg bg-zinc-200/10 dark:bg-zinc-900/10 border border-gray-200 shadow-sm;
   }
 
   .callout-title {

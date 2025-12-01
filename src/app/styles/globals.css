@@ -1,16 +1,42 @@
-@import './callouts.css';
+@import "tailwindcss";
+@import "./callouts.css";
 
-@tailwind base;
+@theme {
+  /* Custom colors */
+  --color-accent-1: #fafafa;
+  --color-accent-2: #eaeaea;
+  --color-accent-7: #333;
+  --color-success: #0070f3;
+  --color-cyan: #79ffe1;
+
+  /* Custom spacing */
+  --spacing-28: 7rem;
+
+  /* Custom letter spacing */
+  --letter-spacing-tighter: -0.04em;
+
+  /* Custom font sizes */
+  --font-size-5xl: 2.5rem;
+  --font-size-6xl: 2.75rem;
+  --font-size-7xl: 4.5rem;
+  --font-size-8xl: 6.25rem;
+
+  /* Custom box shadows */
+  --shadow-sm: 0 5px 10px rgba(0, 0, 0, 0.12);
+  --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
 
 @layer base {
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-bold; /* This sets font-weight to 700 */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
   }
 
   p {
     @apply mb-4;
   }
 }
-
-@tailwind components;
-@tailwind utilities;
