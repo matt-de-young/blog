@@ -2,7 +2,7 @@
 title: "No Project Managers, No Scrum Masters"
 excerpt: "Scrum discourages ownership & encourages mediocrity. A better process is possible."
 date: "2025-03-12T12:54:07.322Z"
-draft: true
+draft: false
 ---
 
 This post describes an agile alternative to scrum that I have had a lot of success with. This was framework developed collaboratively with a group of 9 people developing products including PCBs, firmware, SaaS platforms, Mobile Apps, & infrastructure as code at ivy GmbH. It's not that scrum doesn't work, but I don't think it allows software development teams to do their best work & for high performing teams a better way is possible. Even when scrum is working at its best it involves a lot of overhead & coordination, at its worst it completely separates people making decisions from the consequences of those decisions. The purest form of the method proposed here is to just get a bunch of smart people together & unleash them on a problem with all the context that they need. If your team has already reached that level of enlightenment there is no need to mess around with this method. But this method attempts to work as a recipe to make the magic repeatable.
