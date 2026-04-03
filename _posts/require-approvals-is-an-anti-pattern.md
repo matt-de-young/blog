@@ -1,8 +1,8 @@
 ---
-title: "Mandatory PR Approvals Are an Anti-Pattern"
-excerpt: ""
-date: "2026-04-02T19:24:07.322Z"
-draft: true
+title: "Require Approvals is an Anti-Pattern"
+excerpt: "Mandatory PR approvals is a well-intentioned but outdated practice that slows down internal teams without meaningfully improving quality."
+date: "2026-04-03T19:24:07.322Z"
+draft: false
 ---
 
 This is something I've been thinking about for a while, & I think most engineering teams have gotten it wrong, or at least haven't questioned it in a long time: mandatory pull request approvals. I believe mandatory PR approvals are a well-intentioned but outdated practice that slows down internal teams without meaningfully improving quality. To be clear, I don't have a problem with code reviews or pull requests; I think PRs are a great mechanism for running automated checks, providing a paper trail, & giving your CI suite a last chance to catch something before code hits main. The problem is specifically requiring a human to sign off on every merge before it can land, particularly on an internal codebase maintained by a dedicated team. In my experience that practice slows teams down far more than it protects them, & most teams adopted it without ever thinking about it.
@@ -31,7 +31,7 @@ There's also a trust question here that I think is worth addressing directly. If
 
 ## It'll Be Fine
 
-I get that this sounds scary if your team has always had mandatory approvals. It felt that way to us too. But the data is unambiguous. [An analysis of nearly 3,000 development teams](https://linearb.io/blog/cycle-time) found that the average cycle time is about 7 days, with PRs sitting in the review process for 4 of those 7 days. More than half of your lead time evaporating while code waits for someone to look at it. Organizations practicing trunk-based development [deploy 4.2 times more frequently](https://dora.dev/guides/dora-metrics/) than teams using gated branching strategies, without a corresponding increase in failure rates. Your application is not going to fall apart because you removed a mandatory approval step.
+I get that this sounds scary if your team has always had mandatory approvals. But the data is unambiguous. [An analysis of nearly 3,000 development teams](https://linearb.io/blog/cycle-time) found that the average cycle time is about 7 days, with PRs sitting in the review process for 4 of those 7 days. More than half of your cycle time evaporating while code waits for someone to look at it. Organizations practicing trunk-based development [deploy 4.2 times more frequently](https://dora.dev/guides/dora-metrics/) than teams using gated branching strategies, without a corresponding increase in failure rates. Your application is not going to fall apart because you removed a mandatory approval step.
 
 What happens when you remove the gate is that your developers start shipping faster, context switching less, & spending more of their day in flow state instead of watching a PR queue. [44% of teams](https://dev.to/vitalii_petrenko_dev/the-hidden-cost-of-slow-code-reviews-data-from-8-million-prs-5fei) report slow code reviews as their single biggest delivery bottleneck, & Meta's own research found that slow review times correlated directly with engineer dissatisfaction. This isn't about velocity alone; people are unhappy sitting around waiting for approvals. Fix the process & you fix both problems at once.
 
