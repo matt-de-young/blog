@@ -11,7 +11,7 @@
     "classnames": "~2.5.1",
     "date-fns": "~4.4",
     "gray-matter": "~4.0.3",
-    "next": "~16.2",
+    "next": "~16.4.5",
     "react": "~19.2.1",
     "react-dom": "~19.2.1",
     "rehype-callouts": "~2.2",
